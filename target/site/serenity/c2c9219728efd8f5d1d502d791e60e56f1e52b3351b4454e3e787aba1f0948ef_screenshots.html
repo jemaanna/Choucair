@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="99b5af1efb65ca6beb27c9afcc3d1b233eef71b4b92ac60f6de1a5b56155970f.html">Create A New User On The Utest Page</a></span>
+                > <span class="truncate-60"><a
+                    href="c2c9219728efd8f5d1d502d791e60e56f1e52b3351b4454e3e787aba1f0948ef.html">user created successfully </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-12-2021 08:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create A New User On The Utest Page</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">user created successfully
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="fd1e3342f9f9a82e390a07a6b3940f89dd19fc33e67bfc95c4f1879b35cf0d55.png" title=" Given user enters the page" width="1366"/>
+                <img src="fd1e3342f9f9a82e390a07a6b3940f89dd19fc33e67bfc95c4f1879b35cf0d55.png" title=" jesus opens the https://utest.com/" width="1366"/>
+                <img src="fd1e3342f9f9a82e390a07a6b3940f89dd19fc33e67bfc95c4f1879b35cf0d55.png" title=" Given user enters the page (completed)" width="1366"/>
+                <img src="e8cb7986f536b6f110074499d0bcedd573ccbce71c638dd4f4a3f73f9a87e632.png" title=" When the fields are completed the user is created" width="1366"/>
+                <img src="e8cb7986f536b6f110074499d0bcedd573ccbce71c638dd4f4a3f73f9a87e632.png" title=" Jesus register user" width="1366"/>
+                <img src="e8cb7986f536b6f110074499d0bcedd573ccbce71c638dd4f4a3f73f9a87e632.png" title=" jesus clicks on register" width="1366"/>
+                <img src="1133330bb89ecc2d4cdcd80de45404baf6f1836ea7029ba970e970f44fcaac53.png" title=" jesus enters 'jesus' into first name" width="1366"/>
+                <img src="59a9d5efc55644b15877ca9694ee346e17cc0e0f06b7d6ef3947ecd86b8c2f6f.png" title=" jesus enters 'andrade' into last name" width="1366"/>
+                <img src="2e8f62034ea22dd0392bdbe866253b88ba0f5838653e7bbbc8f32730f304fa35.png" title=" jesus enters 'j@gmail.com' into email" width="1366"/>
+                <img src="ac5bcb581a41886d6269a098e02d1f4b2052e04c84fa1fa42d2732eb56428ad5.png" title=" jesus enters 'November' into month" width="1366"/>
+                <img src="cd1b4c7c183279e511501213fcc8ef2abc86426c2b932a97676bb31e020df20e.png" title=" jesus enters '11' into day" width="1366"/>
+                <img src="a1a3356a0cc141dfbcae272b012d2edb1b208a9dd126a1acada4a2fd4f59f4d2.png" title=" jesus enters '1997' into year" width="1366"/>
+                <img src="1c556bfdc0ab3be3ce9f2f0101417f1be36f924cef71eac316337c713680326b.png" title=" jesus clicks on next button" width="1366"/>
+                <img src="129cc67b2fced302a1e64e47b2388153cc94a2c86447743edb37e439185ec06c.png" title=" jesus clicks on next button2" width="1366"/>
+                <img src="6bbc4b070f7110b8384cc308be825ce62fef017dbbfa4f03c00da2ffb0d63673.png" title=" jesus clicks on system" width="1366"/>
+                <img src="cc7e955ef9d961652712a90f1c302ac7be3aa351239b784744db296607f3a905.png" title=" jesus clicks on windows" width="1366"/>
+                <img src="fa29c125beb71bbecdf462ae0122f5877c5475692cb384b8d0ed7622b072cd03.png" title=" jesus clicks on version" width="1366"/>
+                <img src="92dc8c4a4f1de6a19f7745a9e6d592c554949f89a714b540052b5577952ee915.png" title=" jesus clicks on xp" width="1366"/>
+                <img src="65fad67fc2b7a59ae59f7d3c2486163f2cb1b7f100b867f58aa6a1ce1fbf9709.png" title=" jesus clicks on idiom" width="1366"/>
+                <img src="0867b855eb1a4d67f3a367bff3e61ea6eeab5a8cb821a448fc298e4acd8c1027.png" title=" jesus clicks on english" width="1366"/>
+                <img src="6ac3a008508bab60092bfd7ff5f1270fce78c44bea19560b88eb05f82683f990.png" title=" jesus clicks on button final" width="1366"/>
+                <img src="ba254f1070f1f18ae71f4b7dd831e6634a70c752971b63e0c1201f9439732452.png" title=" jesus enters 'Jesusmauricio.1997' into password" width="1366"/>
+                <img src="daff6f2a04d77e0e1a1dbafe1d51784f65f1dd77140bbe31f9079a62f7235c59.png" title=" jesus enters 'Jesusmauricio.1997' into confirmPassword" width="1366"/>
+                <img src="519a9995019403826887147030adf4ba7ed4b36c024743cfa60a6e5356fd606b.png" title=" jesus clicks on checkon" width="1366"/>
+                <img src="f1fc601a61a46017465dc65d08d7d9c9f8fde81602cd6af3fdea3470dcb87775.png" title=" jesus clicks on check on" width="1366"/>
+                <img src="e5ea7ae7be818839beb57d49347b53d8eb83fab0de23868af50be6949f5cf34a.png" title=" jesus clicks on button complete" width="1366"/>
+                <img src="e5ea7ae7be818839beb57d49347b53d8eb83fab0de23868af50be6949f5cf34a.png" title=" Jesus register user (completed)" width="1366"/>
+                <img src="e5ea7ae7be818839beb57d49347b53d8eb83fab0de23868af50be6949f5cf34a.png" title=" When the fields are completed the user is created (completed)" width="1366"/>
+                <img src="e5ea7ae7be818839beb57d49347b53d8eb83fab0de23868af50be6949f5cf34a.png" title=" Then user sees his name: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
